@@ -44,7 +44,7 @@ Here’s a showcase of some exciting projects I’ve worked on. Dive in and expl
 Got questions, feedback, or just want to say hi? I’d love to hear from you!  
 
 - 📧 **Email:** [katiabellahsene1@gmail.com](mailto:katiabellahsene1@gmail.com)  
-- 💼 **LinkedIn:** [Katia BELLAHSENE](https://www.linkedin.com/feed/)    
+- 💼 **LinkedIn:** [Katia BELLAHSENE](https://www.linkedin.com/in/katia-bellahsene-69bba3191/) 
 
 ---
 
