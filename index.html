@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Katia's Journal</title>
+    <link rel="stylesheet" href="book_style.css">
+    <script src="book_animation.js" defer></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <!--Font used in style :-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat+Brush&family=Satisfy&family=Shadows+Into+Light+Two&family=Vibur&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat+Brush&family=Knewave&family=Satisfy&family=Shadows+Into+Light+Two&family=Vibur&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat+Brush&family=Knewave&family=Poiret+One&family=Satisfy&family=Shadows+Into+Light+Two&family=Vibur&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat+Brush&family=Gabarito:wght@400..900&family=Knewave&family=Poiret+One&family=Satisfy&family=Shadows+Into+Light+Two&family=Vibur&display=swap" rel="stylesheet">
+
+</head>
+
+
+<body>
+    <!--   Previous Button  -->
+    <button id="prev-btn">
+        <i class="fa-solid fa-left-long"></i>
+    </button>
+
+
+
+    <!--    The Journal    -->
+    <div id="book" class="book">
+
+
+
+
+        <!-- Page 1 = Cover -->
+         <div id="p1" class="paper">
+            <div class="front">
+                <div id="f1" class="front-content">
+                    
+                    <img src="src/cover.png" alt="cover">
+                </div>
+            </div>
+            
+            <div class="back">
+                <div id="b1" class="back-content">
+                    <img src="src/back1.png" alt="paper">
+                </div>
+            </div>
+         </div>
+
+
+         <!-- Page 2: About Me -->
+         <div id="p2" class="paper">
+            <div class="front">
+                <div id="f2" class="front-content">
+                    <img src="src/f2.png" alt="desc">
+                </div>
+            </div>
+            
+            <div class="back">
+                <div id="b2" class="back-content">
+                    <img src="src/contact.png" alt="paper">           
+                    <h3 class="contact-title">Want to get in touch ?</h3>  
+                    <p class="contact-intro"> 
+                        Feel free to drop me a message, and I'll get back to you as soon as possible.
+                    </p>    
+                    <div class="links-box">
+                        <h5>My socials  :</h5>
+                        <p>📧<a href="mailto:katiabellahsene1@gmail.com" class="link">katiabellahsene1@gmail.com</a>​</p>
+                        <p>🔗<a href="https://www.linkedin.com/in/katia-bellahsene-69bba3191/" class="link">LikedIn Account</a>​</p>
+                        
+                    </div>  
+                    <div class="docs-box">
+                        <h5>Take a look at my resume : <a href="src/CV_KB.pdf" class="link">Click here</a></h5>
+                    </div> 
+                </div>
+            </div>
+
+
+         </div> 
+        
+
+         <!-- Page 3 : Vie Academique -->
+
+         <div id="p3" class="paper">
+            <div class="front">
+                <div id="f3" class="front-content">
+                    <img src="src/s1.png" alt="desc">
+                    <h2>Section 1</h2>
+                    <h3>My Academic Life</h3>
+                </div>
+            </div>
+            
+            <div class="back">
+                <div id="b3" class="back-content">
+                    <img src="src/jp.png" alt="desc">
+                    <h3 class="title">Educational Background </h3>
+                    <section class="timeline">
+                        <div class="box">
+                            <h3>Baccalauriat Science</h3>
+                            <h4>Lycée Diouani Mohamed Said - Algérie</h4>
+                            <h4>2020</h4>
+                        </div>
+                        <div class="box">
+                            <h3>Première année Pharmacie</h3>
+                            <h4>Université de Mouloud Maameri - Algérie</h4>
+                            <h4>2020-2021</h4>
+                        </div>
+                        <div class="box">
+                            <h3>Licence en Informatique</h3>
+                            <h4>Université de Limoges</h4>
+                            <h4>2021-2025</h4>
+                        </div>
+                        
+                    </section>
+                </div>
+            </div>
+
+        </div> 
+
+
+         <!-- Page 4 : mes projets -->
+         <div id="p4" class="paper">
+            <div class="front">
+                <div id="f4" class="front-content">
+                    <img src="src/jp.png" alt="paper">
+                    <!--pour les projets je voulais les presenter en forme de carte et lorsqu'on clique on peut acceder au code -->
+                    <h2>My Projetcs :</h2>
+                    <p class="project-intro">During my 3 years of licence i was able to work on many academic cool projects, here are some of my favorites :</p>
+                    
+                    <!--LES CARTES :-->
+                    <div class="card-list">
+                        <div class="card one">
+                            <div class="card-content">
+                                <h3>Création d’un site Web d’une boutique de couture </h3>
+                                <p>Une plateforme responsive offre de la couture personnalisée et des cours en ligne, 
+                                    avec gestion des utilisateurs, devis, inscriptions et contact par mail.</p>
+                                <img src="" alt="outils">
+                                <a href="" class="btn">See Code</a>
+                            </div>
+                        </div>
+
+                        <div class="card two">
+                            <div class="card-content">
+                                <h3>Project Title</h3>
+                                <p>description</p>
+                                <a href="" class="btn">See Code</a>
+                            </div>
+                        </div>
+
+                        <div class="card three">
+                            <div class="card-content">
+                                <h3>Project Title</h3>
+                                <p>description</p>
+                                <a href="" class="btn">See Code</a>
+                            </div>
+                        </div>
+
+                    </div>
+                    
+                </div>
+            </div>
+            
+            <div class="back">
+                <div id="b4" class="back-content">
+                    <img src="src/jp.png" alt="paper">
+                    <div class="card-list">
+                        <div class="card four">
+                            <div class="card-content">
+                                <h3>Project Title</h3>
+                                <p>description</p>
+                                <a href="" class="btn">See Code</a>
+                            </div>
+                        </div>
+                        
+                        <div class="card five">
+                            <div class="card-content">
+                                <h3>Project Title</h3>
+                                <p>description</p>
+                                <a href="https://www.google.com" class="btn">See Code</a>                              
+                            </div>
+                        </div>
+    
+                        <div class="card six">
+                            <div class="card-content">
+                                <h3>Project Title</h3>
+                                <p>description</p>
+                                <a href="" class="btn">See Code</a>
+                            </div>
+                        </div>
+
+                        <div class="card seven">
+                            <div class="card-content">
+                                <h3>Project Title</h3>
+                                <p>description</p>
+                                <a href="" class="btn">See Code</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+         </div>
+
+        
+
+        <!-- page 5 :  -->
+        <div id="p5" class="paper">
+            <div class="front">
+                <div id="f5" class="front-content">
+                    <img src="src/jp.png" alt="desc">
+                    <h3>My Skills </h3>
+
+                    <div class="container" id="bocal">
+                    </div>
+
+                    <div class="circle-1"><p class="circle-text">Python</p></div>
+                    <div class="circle-2"><p class="circle-text">Java, JavaFX & Processing</p></div>
+                    <div class="circle-3"><p class="circle-text">C & C++</p></div>
+                    <div class="circle-4"><p class="circle-text">SQL & SQLite</p></div>
+                    <div class="circle-5"><p class="circle-text">VisualStudio</p></div>
+                    <div class="circle-6"><p class="circle-text">Html, CSS, jS</p></div>
+                    <div class="circle-7"><p class="circle-text">Assembleur</p></div>
+                    <div class="circle-8"><p class="circle-text">Compétence 8</p></div>
+                    <div class="circle-9"><p class="circle-text">Compétence 9</p></div>
+                    <div class="circle-10"><p class="circle-text">Compétence 10</p></div>
+                    <div class="circle-11"><p class="circle-text">Compétence 11</p></div>
+                    <div class="circle-12"><p class="circle-text">Compétence 12</p></div>
+                    <div class="circle-13"><p class="circle-text">Compétence 13</p></div>
+                    
+                </div>
+            </div>
+            
+            <div class="back">
+                <div id="b5" class="back-content">
+                    <img src="src/jp.png" alt="paper">           
+            
+                </div>
+            </div>
+
+        </div> 
+        
+        <!-- page 6 :  -->
+        <div id="p6" class="paper">
+            <div class="front">
+                <div id="f6" class="front-content">
+                    <img src="src/jp.png" alt="desc">
+                </div>
+            </div>
+            
+            <div class="back">
+                <div id="b6" class="back-content">
+                    <img src="src/jp.png" alt="paper">           
+            
+                </div>
+            </div>
+
+        </div> 
+        
+        <!-- Page 7 : -->
+        <div id="p7" class="paper">
+            <div class="front">
+                <div id="f7" class="front-content">
+                    <img src="src/jp.png" alt="desc">
+                </div>
+            </div>
+            
+            <div class="back">
+                <div id="b7" class="back-content">
+                    <img src="src/jp.png" alt="paper">           
+            
+                </div>
+            </div>
+
+        </div> 
+        
+
+        <!-- Page 8:  -->
+        <div id="p8" class="paper">
+            <div class="front">
+                <div id="f8" class="front-content">
+                    <img src="src/jp.png" alt="desc">
+                </div>
+            </div>
+            
+            <div class="back">
+                <div id="b8" class="back-content">
+                    <img src="src/jp.png" alt="paper">           
+            
+                </div>
+            </div>
+
+        </div> 
+
+
+        <!-- Page 9 :  -->
+        <div id="p9" class="paper">
+            <div class="front">
+                <div id="f9" class="front-content">
+                    <img src="src/jp.png" alt="desc">
+                </div>
+            </div>
+            
+            <div class="back">
+                <div id="b9" class="back-content">
+                    <img src="src/jp.png" alt="paper">           
+            
+                </div>
+            </div>
+
+        </div> 
+        
+        <!-- Page 10: -->
+        <div id="p10" class="paper">
+            <div class="front">
+                <div id="f10" class="front-content">
+                    <img src="src/jp.png" alt="desc">
+                </div>
+            </div>
+            
+            <div class="back">
+                <div id="b10" class="back-content">
+                    <img src="src/jp.png" alt="paper">           
+            
+                </div>
+            </div>
+
+        </div> 
+        
+
+        <!-- Page 11: -->
+        <div id="p11" class="paper">
+            <div class="front">
+                <div id="f11" class="front-content">
+                    <img src="src/jp.png" alt="desc">
+                </div>
+            </div>
+            
+            <div class="back">
+                <div id="b11" class="back-content">
+                    <img src="src/jp.png" alt="paper">           
+            
+                </div>
+            </div>
+
+        </div> 
+        
+    </div>
+
+
+
+    <!--   Next Button  -->
+    <button id="next-btn">
+        <i class="fa-solid fa-right-long"></i>
+    </button>
+</body>
+</html>
